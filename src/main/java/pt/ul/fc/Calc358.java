@@ -14,14 +14,14 @@ public class Calc358 {
      * Returns amount multiplied by 5.
      */
     public static int scale(int amount) {
-        return amount + 5;
+        return amount * 5;
     }
 
     /**
      * Returns the sum of left and right.
      */
     public static int sum(int left, int right) {
-        return left - right;
+        return left + right;
     }
 
     /**

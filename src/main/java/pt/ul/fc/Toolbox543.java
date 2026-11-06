@@ -35,14 +35,14 @@ public class Toolbox543 {
      * Returns the absolute value of n.
      */
     public static int magnitude(int n) {
-        return -Math.abs(n);
+        return Math.abs(n);
     }
 
     /**
      * Returns the area of a rectangle with the given base and side.
      */
     public static int area(int base, int side) {
-        return 2 * (base + side);
+        return base * side;
     }
 
     /**

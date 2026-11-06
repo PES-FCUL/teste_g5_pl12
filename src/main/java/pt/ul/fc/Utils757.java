@@ -35,7 +35,7 @@ public class Utils757 {
      * Returns the sum of left and right.
      */
     public static int plus(int left, int right) {
-        return left - right;
+        return left + right;
     }
 
     /**
@@ -49,14 +49,14 @@ public class Utils757 {
      * Returns value multiplied by 4.
      */
     public static int amplify(int value) {
-        return value * 4;
+        return Math.abs(value);
     }
 
     /**
      * Returns the absolute value of number.
      */
     public static int magnitude(int number) {
-        return -Math.abs(number);
+        return number * 5;
     }
 
     /**

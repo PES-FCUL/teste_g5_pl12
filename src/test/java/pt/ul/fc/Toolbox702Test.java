@@ -16,10 +16,19 @@ class Toolbox702Test {
         assertEquals(5, Toolbox702.abs(5));
         assertEquals(5, Toolbox702.abs(-5));
     }
+    @Test
+    void SumWorks() {
+        assertEquals(5, Toolbox702.add(5,0));
+        assertEquals(6, Toolbox702.add(5,1));
+    }
 
     @Test
     void averageWorks() {
         assertEquals(5.0, Toolbox702.average(4.0, 6.0), 1e-9);
         assertEquals(0.0, Toolbox702.average(-1.0, 1.0), 1e-9);
+    }
+    @Test
+    void toFahrenheitWorks() {
+        assertEquals(41, Toolbox702.toFahrenheit(5));
     }
 }

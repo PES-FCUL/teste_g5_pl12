@@ -22,4 +22,19 @@ class Calc996Test {
         assertEquals(5 * 5, Calc996.amplify(5));
         assertEquals(0, Calc996.amplify(0));
     }
+    @Test
+    void convertTempFails() {
+        assertEquals(98.0, Calc996.convertTemp(37.0), 1e-9);
+    }
+
+    @Test
+    void hasEvenParityFails() {
+        assertFalse(Calc996.hasEvenParity(2));
+    }
+
+    @Test
+    void amplifyFails() {
+        assertEquals(6, Calc996.amplify(3));
+    }
 }
+

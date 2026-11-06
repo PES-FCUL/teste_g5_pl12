@@ -23,4 +23,14 @@ class Utils368Test {
         assertTrue(Utils368.isEven(4));
         assertFalse(Utils368.isEven(7));
     }
+
+    @Test
+    void total() {
+        assertEquals(9, Utils368.total(4, 5));
+    }
+
+    @Test
+    void absolute() {
+        assertEquals(4, Utils368.absolute(-4));
+    }
 }

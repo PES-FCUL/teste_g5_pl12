@@ -22,4 +22,14 @@ class Calc880Test {
         assertEquals("HELLO", Calc880.loud("hello"));
         assertEquals("ABC", Calc880.loud("aBc"));
     }
+
+    @Test
+    void multiplyWorks() {
+        assertEquals(32, Calc880.cToF(0));
+    }
+
+    @Test
+    void cToFWorks() {
+        assertEquals(18, Calc880.multiply(6));
+    }
 }

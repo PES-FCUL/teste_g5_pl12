@@ -1,3 +1,4 @@
+
 package pt.ul.fc;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -22,5 +23,15 @@ class Basics135Test {
     void divisibleByTwoWorks() {
         assertTrue(Basics135.divisibleByTwo(4));
         assertFalse(Basics135.divisibleByTwo(7));
+    }
+
+    @Test
+    void celciusToFWorks() {
+        assertEquals(41, Basics135.celsiusToF(5));
+    }
+
+    @Test
+    void rectAreaWorks() {
+        assertEquals(8, Basics135.rectArea(4,2));
     }
 }

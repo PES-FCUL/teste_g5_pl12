@@ -22,4 +22,14 @@ class Calc253Test {
         assertEquals(7, Calc253.add(3, 4));
         assertEquals(0, Calc253.add(-2, 2));
     }
+    @Test
+       void isEvenWorks() {
+        assertEquals(true, Calc253.isEven(2));
+        assertEquals(false, Calc253.isEven(3));
+    }
+    @Test
+       void convertTempworks() {
+        assertEquals(68, Calc253.convertTemp(21), 1e-9);
+        assertEquals(86, Calc253.convertTemp(30), 1e-9);
+    }
 }

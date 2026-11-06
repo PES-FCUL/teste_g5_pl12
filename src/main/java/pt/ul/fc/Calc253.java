@@ -42,14 +42,14 @@ public class Calc253 {
      * Converts a temperature from Celsius to Fahrenheit (F = C * 9 / 5 + 32).
      */
     public static double convertTemp(double degrees) {
-        return degrees * 9.0 / 5.0;
+    	    return degrees * 9.0 / 5.0 + 32;
     }
 
     /**
      * Returns true if value is even, false otherwise.
      */
     public static boolean isEven(int value) {
-        return value % 2 != 0;
+        return value % 2 == 0;
     }
 
     /**

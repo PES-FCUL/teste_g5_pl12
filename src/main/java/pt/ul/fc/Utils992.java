@@ -28,7 +28,7 @@ public class Utils992 {
      * Returns the sum of a and b.
      */
     public static int sum(int a, int b) {
-        return a - b;
+        return a + b;
     }
 
     /**
@@ -56,7 +56,7 @@ public class Utils992 {
      * Returns amount multiplied by 5.
      */
     public static int times(int amount) {
-        return amount + 5;
+        return amount * 5;
     }
 
     /**

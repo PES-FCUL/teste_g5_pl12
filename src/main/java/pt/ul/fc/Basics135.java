@@ -35,7 +35,7 @@ public class Basics135 {
      * Converts a temperature from Celsius to Fahrenheit (F = C * 9 / 5 + 32).
      */
     public static double celsiusToF(double degrees) {
-        return degrees * 9.0 / 5.0;
+        return degrees * 9.0 / 5.0 + 32;
     }
 
     /**
@@ -49,7 +49,7 @@ public class Basics135 {
      * Returns the area of a rectangle with the given w and h.
      */
     public static int rectArea(int w, int h) {
-        return 2 * (w + h);
+        return w * h;
     }
 
     /**

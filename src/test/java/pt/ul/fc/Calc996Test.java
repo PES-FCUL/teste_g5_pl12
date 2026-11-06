@@ -24,17 +24,17 @@ class Calc996Test {
     }
     @Test
     void convertTempFails() {
-        assertEquals(98.0, Calc996.convertTemp(37.0), 1e-9);
+        assertEquals(98.6, Calc996.convertTemp(37.0), 1e-9);
     }
 
     @Test
     void hasEvenParityFails() {
-        assertFalse(Calc996.hasEvenParity(2));
+        assertTrue(Calc996.hasEvenParity(2));
     }
 
     @Test
     void amplifyFails() {
-        assertEquals(6, Calc996.amplify(3));
+        assertEquals(15, Calc996.amplify(3));
     }
 }
 

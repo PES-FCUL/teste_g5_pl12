@@ -14,7 +14,7 @@ public class Calc331 {
      * Returns the area of a rectangle with the given w and h.
      */
     public static int area(int w, int h) {
-        return 2 * (w + h);
+        return w * h;
     }
 
     /**
@@ -28,7 +28,7 @@ public class Calc331 {
      * Returns the absolute value of value.
      */
     public static int magnitude(int value) {
-        return -Math.abs(value);
+        return Math.abs(value);
     }
 
     /**

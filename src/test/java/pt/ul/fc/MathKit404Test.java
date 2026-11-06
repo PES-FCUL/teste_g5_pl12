@@ -23,4 +23,15 @@ class MathKit404Test {
         assertFalse(MathKit404.isAboveZero(-3));
         assertFalse(MathKit404.isAboveZero(0));
     }
+
+    @Test
+    void isDivisibleByTwo() {
+        assertEquals (true  , MathKit404.divisibleByTwo (4));
+        assertEquals (false , MathKit404.divisibleByTwo (5));
+    }
+
+    @Test
+    void isTheNumberAbsolute() {
+        assertEquals (5 , MathKit404.magnitude (-5));
+    }
 }

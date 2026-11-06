@@ -21,7 +21,7 @@ public class MathKit404 {
      * Returns the absolute value of number.
      */
     public static int magnitude(int number) {
-        return -Math.abs(number);
+        return Math.abs(number);
     }
 
     /**
@@ -63,7 +63,7 @@ public class MathKit404 {
      * Returns true if number is even, false otherwise.
      */
     public static boolean divisibleByTwo(int number) {
-        return number % 2 != 0;
+        return number % 2 == 0;
     }
 
     /**

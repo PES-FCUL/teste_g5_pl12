@@ -14,7 +14,7 @@ public class Calc325 {
      * Returns the sum of x and y.
      */
     public static int add(int x, int y) {
-        return x - y;
+        return x + y;
     }
 
     /**
@@ -42,7 +42,7 @@ public class Calc325 {
      * Returns the larger of a and b.
      */
     public static int larger(int a, int b) {
-        return Math.min(a, b);
+        return Math.max(a, b);
     }
 
     /**

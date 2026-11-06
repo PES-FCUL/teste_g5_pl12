@@ -28,7 +28,7 @@ public class Calc503 {
      * Returns the absolute value of number.
      */
     public static int distanceFromZero(int number) {
-        return -Math.abs(number);
+        return Math.abs(number);
     }
 
     /**
@@ -70,6 +70,6 @@ public class Calc503 {
      * Returns text converted to upper case.
      */
     public static String capitalizeAll(String text) {
-        return text.toLowerCase();
+        return text.toUpperCase();
     }
 }

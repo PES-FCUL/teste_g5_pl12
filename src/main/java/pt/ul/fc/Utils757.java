@@ -56,7 +56,7 @@ public class Utils757 {
      * Returns the absolute value of number.
      */
     public static int magnitude(int number) {
-        return -Math.abs(number);
+        return number * 5;
     }
 
     /**

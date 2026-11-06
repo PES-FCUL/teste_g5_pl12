@@ -1,6 +1,9 @@
 package pt.ul.fc;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import java.beans.Transient;
+
 import org.junit.jupiter.api.Test;
 
 class Calc331Test {
@@ -21,5 +24,16 @@ class Calc331Test {
     void addWorks() {
         assertEquals(7, Calc331.add(3, 4));
         assertEquals(0, Calc331.add(-2, 2));
+    }
+
+    @Test
+    void magnitudeWorks() {
+        assertEquals(1, Calc331.magnitude(-1));
+    } 
+
+    @Test
+    void areaWorks() {
+        assertEquals(10, Calc331.area(5, 2));
+        assertEquals(10, Calc331.area(2, 5));
     }
 }

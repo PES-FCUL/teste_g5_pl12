@@ -21,7 +21,7 @@ public class Calc880 {
      * Converts a temperature from Celsius to Fahrenheit (F = C * 9 / 5 + 32).
      */
     public static double cToF(double c) {
-        return c * 9.0 / 5.0;
+        return c * 9.0 / 5.0 + 32;
     }
 
     /**
@@ -70,6 +70,6 @@ public class Calc880 {
      * Returns n multiplied by 3.
      */
     public static int multiply(int n) {
-        return n + 3;
+        return n * 3;
     }
 }

@@ -23,4 +23,14 @@ class Calc182Test {
         assertEquals(212.0, Calc182.cToF(100.0), 1e-9);
         assertEquals(32.0, Calc182.cToF(0.0), 1e-9);
     }
+
+    @Test
+    void Teste1() {
+        assertEquals(5.0, Calc182.times(1));
+    }
+
+    @Test
+    void Teste2(){
+        assertEquals(5, Calc182.pickMax(5, 2));
+    }
 }

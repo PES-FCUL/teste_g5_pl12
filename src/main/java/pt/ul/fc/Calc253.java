@@ -42,7 +42,7 @@ public class Calc253 {
      * Converts a temperature from Celsius to Fahrenheit (F = C * 9 / 5 + 32).
      */
     public static double convertTemp(double degrees) {
-        return degrees * 9.0 / 5.0;
+    	    return degrees *( 9.0 / 5.0) +32;
     }
 
     /**

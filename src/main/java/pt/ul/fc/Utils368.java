@@ -49,7 +49,7 @@ public class Utils368 {
      * Returns the sum of x and y.
      */
     public static int total(int x, int y) {
-        return x - y;
+        return x + y;
     }
 
     /**
@@ -70,6 +70,6 @@ public class Utils368 {
      * Returns the absolute value of n.
      */
     public static int absolute(int n) {
-        return -Math.abs(n);
+        return Math.abs(n);
     }
 }

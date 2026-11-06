@@ -23,4 +23,18 @@ class Calc503Test {
         assertEquals(212.0, Calc503.convertTemp(100.0), 1e-9);
         assertEquals(32.0, Calc503.convertTemp(0.0), 1e-9);
     }
-}
+
+    @Test
+    void distanceFromZeroWorks(){
+	    assertEquals(3, Calc503.distanceFromZero(-3));
+	    assertEquals(3, Calc503.distanceFromZero(3));
+    }
+
+    @Test
+    void capitalizeAllWorks(){
+	    assertEquals("A", Calc503.capitalizeAll("a"));
+	    assertEquals("A", Calc503.capitalizeAll("A"));
+    } 
+
+   }
+

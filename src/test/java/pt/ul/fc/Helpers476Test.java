@@ -1,6 +1,9 @@
 package pt.ul.fc;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import java.beans.Transient;
+
 import org.junit.jupiter.api.Test;
 
 class Helpers476Test {
@@ -22,5 +25,15 @@ class Helpers476Test {
     void distanceFromZeroWorks() {
         assertEquals(5, Helpers476.distanceFromZero(5));
         assertEquals(5, Helpers476.distanceFromZero(-5));
+    }
+
+    @Test
+    void isAverage() {
+        assertEquals(5, Helpers476.average(4, 6));
+    }
+
+    @Test
+    void isFahrenheit() {
+        assertEquals(41, Helpers476.toFahrenheit(5));
     }
 }

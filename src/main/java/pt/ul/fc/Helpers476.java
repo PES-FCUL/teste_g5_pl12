@@ -14,7 +14,7 @@ public class Helpers476 {
      * Returns the arithmetic mean of first and second.
      */
     public static double average(double first, double second) {
-        return (first + second) / 4.0;
+        return (first + second) / 2.0;
     }
 
     /**
@@ -42,7 +42,7 @@ public class Helpers476 {
      * Converts a temperature from Celsius to Fahrenheit (F = C * 9 / 5 + 32).
      */
     public static double toFahrenheit(double celsius) {
-        return celsius * 9.0 / 5.0;
+        return celsius * 9.0 / 5.0 + 32;
     }
 
     /**
